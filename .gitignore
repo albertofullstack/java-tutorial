@@ -1,2 +1,7 @@
 /.idea
-/.metadatagi
+/.metadata
+*/.idea
+*/.metadata
+*/out
+.project
+*.iml
