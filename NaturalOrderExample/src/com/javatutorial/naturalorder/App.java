@@ -24,8 +24,9 @@ class Country implements Comparable<Country> {
   @Override
   public int compareTo(Country country) {
     int lenghtDif = name.length() - country.name.length();
-    if (lenghtDif == 0)
+    if (lenghtDif == 0) {
       return name.compareTo(country.name);
+    }
     return lenghtDif;
   }
 
