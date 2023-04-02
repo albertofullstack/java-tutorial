@@ -114,6 +114,6 @@ public class App {
             // Can't do this; no new scope. int d = 99;
             return c + a - b;
         };
-
+        System.out.println(codeblock.toString());
     }
 }
